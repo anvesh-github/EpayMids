@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Creating MID"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="71.529">
+  <properties />
+  
+  
+            <testcase name="createChannel_Solution" time="0.005" classname="com.create.MID.CreateMID" />
+                <testcase name="createMID" time="71.522" classname="com.create.MID.CreateMID" />
+                <testcase name="createChannel_Solution" time="0.002" classname="com.create.MID.CreateMID" />
+      
+</testsuite>

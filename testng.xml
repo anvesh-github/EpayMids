@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Epay suite">
+	<listeners>
+		<listener class-name="com.main.utils.PriorityInterceptor" />
+		<listener class-name="com.main.utils.CaptureScreenShotOnFailureListener" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<test verbose="2" name="Creating MID" preserve-order="true">
+		<parameter name="browser" value="FIREFOX" />
+		<classes>
+			<class name="com.create.MID.CreateMID" />
+		</classes>
+	</test> 
+</suite> <!-- E-Pay suite -->

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Epay_suite">
+              <span class="suite-name border-passed">Epay suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Epay_suite">
+                    <span>E:\PPT_Automation\PromoteServices\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Epay_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Epay_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Epay_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Epay_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Epay_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Epay_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Epay_suite" class="hide-methods passed suite-Epay_suite"> (hide)</a> <!-- hide-methods passed suite-Epay_suite -->
+                      <a href="#" panel-name="suite-Epay_suite" class="show-methods passed suite-Epay_suite"> (show)</a> <!-- show-methods passed suite-Epay_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Epay_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Epay_suite" title="com.create.MID.CreateMID" hash-for-method="createChannel_Solution({createMID=RunMode})">createChannel_Solution({createMID=RunMode})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Epay_suite" title="com.create.MID.CreateMID" hash-for-method="createChannel_Solution({createMID=Y})">createChannel_Solution({createMID=Y})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Epay_suite" title="com.create.MID.CreateMID" hash-for-method="createMID({SaleAPI=http://dev.guardian-casino.com/speedo.php, RunMode=Y, SupplierName=OL044S, MIDname=OL044SM....)">createMID({SaleAPI=http://dev.guardian-casino.com/speedo.php, RunMode=Y, SupplierName=OL044S, MIDname=OL044SM....)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Epay_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Epay_suite" class="panel Epay_suite">
+          <div class="suite-Epay_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.create.MID.CreateMID</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createChannel_Solution({createMID=RunMode})">
+                  </a> <!-- createChannel_Solution({createMID=RunMode}) -->
+                  <span class="method-name">createChannel_Solution</span>
+                  <span class="parameters">({createMID=RunMode})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createChannel_Solution({createMID=Y})">
+                  </a> <!-- createChannel_Solution({createMID=Y}) -->
+                  <span class="method-name">createChannel_Solution</span>
+                  <span class="parameters">({createMID=Y})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createMID({SaleAPI=http://dev.guardian-casino.com/speedo.php, RunMode=Y, SupplierName=OL044S, MIDname=OL044SM....)">
+                  </a> <!-- createMID({SaleAPI=http://dev.guardian-casino.com/speedo.php, RunMode=Y, SupplierName=OL044S, MIDname=OL044SM....) -->
+                  <span class="method-name">createMID</span>
+                  <span class="parameters">({SaleAPI=http://dev.guardian-casino.com/speedo.php, RunMode=Y, SupplierName=OL044S, MIDname=OL044SM.57-TSTA, Params=agent_name=SCORBPagent1,merchantName=vencom,merchantPIN=simina01,paymethod=Credit Card,processing_mode=sale,processing_reconcile=transaction_status,proxy=https://process.challengemyscore.com/send_sync_content.php,room_name=SCORBPrm1,method=cc.cekab,pageSet=ezdebit,proxy_callback=http://bestsalesoffers.com.nixon008.arvixevps.com/api/dbs_callback.aspx,proxy_redirect=http://bestsalesoffers.com.nixon008.arvixevps.com/api/dbs_redirect.aspx,proxy_send=http://bestsalesoffers.com.nixon008.arvixevps.com/api/redirect_send.aspx, WebShopName=MCG, PaymentInstruement=Visa,MasterCard,Amex,Discover,JCB,Qiwi,NETeller,CUP,Citadel,POli,Ukash,PaySafeCard,ACH Echeck,Manual Draft,Bank Transfer Echeck,Sofort,iDeal,WebMoney,inpay,INSTADEBIT,iDebit,MisterCash,EPS,eKonto,EWIRE,EUTELLER,Giropay,Abaqoos,Lobanet,MultiBanco,Maestro,DinnersClub,Hipercard,Elo,Aura,Trustly,PagBrasil BT,Electronic Check,PagBrasil BB})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Epay_suite-class-passed -->
+        </div> <!-- panel Epay_suite -->
+        <div panel-name="test-xml-Epay_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\PPT_Automation\PromoteServices\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Epay suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.main.utils.PriorityInterceptor&quot;/&gt;
+    &lt;listener class-name=&quot;com.main.utils.CaptureScreenShotOnFailureListener&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Creating MID&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;FIREFOX&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.create.MID.CreateMID&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Creating MID --&gt;
+&lt;/suite&gt; &lt;!-- Epay suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Epay_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Epay suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Creating MID (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Epay_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Epay suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Epay_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Epay suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Epay_suite');
+function tableData_Epay_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createMID')
+data.setCell(0, 2, 'com.create.MID.CreateMID')
+data.setCell(0, 3, 71522);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createChannel_Solution')
+data.setCell(1, 2, 'com.create.MID.CreateMID')
+data.setCell(1, 3, 5);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createChannel_Solution')
+data.setCell(2, 2, 'com.create.MID.CreateMID')
+data.setCell(2, 3, 2);
+window.suiteTableData['Epay_suite']= { tableData: data, tableDiv: 'times-div-Epay_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Epay_suite">
+              </div> <!-- times-div-Epay_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Epay_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Epay suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Epay_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Epay_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.create.MID.CreateMID</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(FIREFOX)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createChannel_Solution({createMID=RunMode})</span>
+                <span class="method-start">28013 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createChannel_Solution({createMID=Y})</span>
+                <span class="method-start">28389 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createMID({SaleAPI=http://dev.guardian-casino.com/speedo.php, RunMode=Y, SupplierName=OL044S, MIDname=OL044SM....)</span>
+                <span class="method-start">28587 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">100312 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

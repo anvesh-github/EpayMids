@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Epay suite" duration-ms="103767" started-at="2017-11-01T10:44:01Z" finished-at="2017-11-01T10:45:45Z">
+    <groups>
+    </groups>
+    <test name="Creating MID" duration-ms="103767" started-at="2017-11-01T10:44:01Z" finished-at="2017-11-01T10:45:45Z">
+      <class name="com.create.MID.CreateMID">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.create.MID.CreateMID@20e799e]" name="setUp" is-config="true" duration-ms="28000" started-at="2017-11-01T16:14:01Z" finished-at="2017-11-01T16:14:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createChannel_Solution(java.util.Hashtable)[pri:0, instance:com.create.MID.CreateMID@20e799e]" name="createChannel_Solution" duration-ms="5" started-at="2017-11-01T16:14:29Z" data-provider="getDataToCreateChannel_Solution" finished-at="2017-11-01T16:14:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{createMID=RunMode}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createChannel_Solution -->
+        <test-method status="PASS" signature="createChannel_Solution(java.util.Hashtable)[pri:0, instance:com.create.MID.CreateMID@20e799e]" name="createChannel_Solution" duration-ms="2" started-at="2017-11-01T16:14:29Z" data-provider="getDataToCreateChannel_Solution" finished-at="2017-11-01T16:14:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{createMID=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createChannel_Solution -->
+        <test-method status="PASS" signature="createMID(java.util.Hashtable)[pri:0, instance:com.create.MID.CreateMID@20e799e]" name="createMID" duration-ms="71522" started-at="2017-11-01T16:14:30Z" data-provider="getDataToCreateMID" finished-at="2017-11-01T16:15:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SaleAPI=http://dev.guardian-casino.com/speedo.php, RunMode=Y, SupplierName=OL044S, MIDname=OL044SM.57-TSTA, Params=agent_name=SCORBPagent1,merchantName=vencom,merchantPIN=simina01,paymethod=Credit Card,processing_mode=sale,processing_reconcile=transaction_status,proxy=https://process.challengemyscore.com/send_sync_content.php,room_name=SCORBPrm1,method=cc.cekab,pageSet=ezdebit,proxy_callback=http://bestsalesoffers.com.nixon008.arvixevps.com/api/dbs_callback.aspx,proxy_redirect=http://bestsalesoffers.com.nixon008.arvixevps.com/api/dbs_redirect.aspx,proxy_send=http://bestsalesoffers.com.nixon008.arvixevps.com/api/redirect_send.aspx, WebShopName=MCG, PaymentInstruement=Visa,MasterCard,Amex,Discover,JCB,Qiwi,NETeller,CUP,Citadel,POli,Ukash,PaySafeCard,ACH Echeck,Manual Draft,Bank Transfer Echeck,Sofort,iDeal,WebMoney,inpay,INSTADEBIT,iDebit,MisterCash,EPS,eKonto,EWIRE,EUTELLER,Giropay,Abaqoos,Lobanet,MultiBanco,Maestro,DinnersClub,Hipercard,Elo,Aura,Trustly,PagBrasil BT,Electronic Check,PagBrasil BB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMID -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.create.MID.CreateMID@20e799e]" name="tearDown" is-config="true" duration-ms="3443" started-at="2017-11-01T16:15:41Z" finished-at="2017-11-01T16:15:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.create.MID.CreateMID -->
+    </test> <!-- Creating MID -->
+  </suite> <!-- Epay suite -->
+</testng-results>

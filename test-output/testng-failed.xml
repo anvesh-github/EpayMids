@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Epay suite]">
+  <parameter name="browser" value="FIREFOX"/>
+  <listeners>
+    <listener class-name="com.main.utils.PriorityInterceptor"/>
+    <listener class-name="com.main.utils.CaptureScreenShotOnFailureListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test verbose="2" name="Creating MID">
+    <parameter name="browser" value="FIREFOX"/>
+    <classes>
+      <class name="com.create.MID.CreateMID"/>
+    </classes>
+  </test> <!-- Creating MID -->
+</suite> <!-- Failed suite [Epay suite] -->
